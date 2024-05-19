@@ -7,7 +7,7 @@ import { Event, EventListener, EventType, EventValueChange, GradientColors, Shad
 import { ColorSelect } from './ColorSelect';
 import './ColorGradient.css';
 
-interface Props {
+export interface Props {
     className?: string;
     value: GradientColors;
     fromLabel?: string;
