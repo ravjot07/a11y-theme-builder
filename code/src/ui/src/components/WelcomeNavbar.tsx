@@ -4,7 +4,7 @@
  */
 import React, {useState, useEffect } from 'react';
 
-interface Props {
+export interface Props {
     styles?: any;
     setStyles?(newStyles:any): Promise<void>;
 }
